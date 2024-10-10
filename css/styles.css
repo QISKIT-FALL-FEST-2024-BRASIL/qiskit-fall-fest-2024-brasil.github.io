@@ -100,6 +100,9 @@ p {
   font-family: 'Roboto', sans-serif; /* Modern font */
   border-bottom: 1px solid rgba(74, 144, 226, 0.5); /* 50% opacity */
 }
+.descricao p {
+  text-align: center;
+}
 
 
 #organizadores {
@@ -302,6 +305,50 @@ footer p {
   width: 100%;
   height: auto;
 }
+
+.palestra-card{
+  padding: 3vw;
+  border: 2px solid white;
+  margin: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cronograma h2 {
+  font-size: 6vw;
+}
+.day {
+  border-bottom: 1px solid rgba(74, 144, 226, 0.5);
+  padding: 2vw 2vw;
+}
+.day h3 {
+  font-size: 3vw;
+}
+.palestra-card h4 {
+  font-weight: normal;
+  font-size: 5vw;
+}
+.palestra-card {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2vw 0;
+}
+.palestra-card h5 {
+  font-weight:normal;
+  text-align: center;
+  font-size: 4vw;
+}
+
+.palestra-card p{
+  text-align: center;
+  font-style: italic;
+  font-size: 3vw;
+  margin: 0;
+}
+
 
 
 
@@ -585,7 +632,7 @@ footer p {
   p {
     font-size: 1.8em;
     letter-spacing: 1px;
-    margin-left: 3em;
+
   }
   button {
     font-size: 1.5em; /* Adjust font size for large screens */
